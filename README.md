@@ -13,9 +13,9 @@ and <a href="https://github.com/dry3ss/ARP_detox">ARP Detox</a>.
 ## Quadruple-tank Plant
 
 ![figure1-scheme](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/fourtanks.png)
-## Figure 1. Quadruple-tank Plant Scheme
+#### Figure 1. Quadruple-tank Plant Scheme
 
 [![figure2-video](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/testbed.png)](https://youtu.be/FZg0F96bYhk)
-## Figure 2. Current Testbed
+#### Figure 2. Current Testbed
 
-## More information will be added soon.
+#### (more information will be added soon).
