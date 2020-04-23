@@ -17,7 +17,7 @@ and the Quadruple Tank Scenario by K. H. Johansson (cf. Ref. <a href="https://do
 ![figure1-scheme](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/fourtanks.png)
 #### Figure 1. Quadruple-tank Plant Scheme, based on Ref. <a href="https://doi.org/10.1109/87.845876">[DOI: 10.1109/87.845876].</a>
 
-[![figure2a-video](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/testbed.png)](https://youtu.be/FZg0F96bYhk) [![figure2b-video](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/testbed2.png)](https://youtu.be/FZg0F96bYhk) [![figure2c-video](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/testbed3.png)](https://youtu.be/FZg0F96bYhk)
+[![figure2a-video](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/testbed.png)](https://youtu.be/FZg0F96bYhk) [![figure2c-video](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/testbed3.png)](https://youtu.be/FZg0F96bYhk)
 #### Figure 2. Current SCADA (Supervisory Control And Data Acquisition) Testbed (videocapture available at <a href="https://youtu.be/FZg0F96bYhk">https://youtu.be/FZg0F96bYhk</a>.
 
 #### (more information will be added soon).
