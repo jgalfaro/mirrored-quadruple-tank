@@ -1,5 +1,5 @@
-Experimental Material for Cyber-Physical Resilience
-using the Quadruple Tank Scenario
+Supplementary Material for Simulation and Experiment Cyber-Physical
+Resilience Work using the Quadruple Tank Scenario
 ===
 
 We reused code from:
@@ -13,7 +13,7 @@ and <a href="https://github.com/dry3ss/ARP_detox">ARP Detox</a>.
 ## Quadruple-tank Plant
 
 ![figure1-scheme](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/fourtanks.png)
-#### Figure 1. Quadruple-tank Plant Scheme
+#### Figure 1. Quadruple-tank Plant Scheme, based on <a href="https://doi.org/10.1109/87.845876">DOI: 10.1109/87.845876</a>
 
 [![figure2-video](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/figures/testbed.png)](https://youtu.be/FZg0F96bYhk)
 #### Figure 2. Current Testbed
