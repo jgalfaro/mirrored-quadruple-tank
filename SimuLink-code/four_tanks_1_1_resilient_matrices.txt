@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Time Domain
+%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+%% sample coefficients
+a = 4;
+alpha = 32;
+h0 = 1.5625;
+gamma1 = 0.7;
+gamma2 = 0.5;
+k = 5;
+
+A = [ -a/( alpha*2*sqrt(h0) ) 0	a/( alpha*2*sqrt(h0) ) 0; 
+       0 -a/( alpha*2*sqrt(h0) ) 0 a/( alpha*2*sqrt(h0) ) ;  
+       0 0 -a/( alpha*2*sqrt(h0) ) 	0  ; 
+       0 0 0 -a/( alpha*2*sqrt(h0) ) 
+    ];
+
+B = [ gamma1*k/alpha 0; 
+      0 gamma2*k/alpha; 
+      1-gamma1*k/alpha 0; 
+      0 1-gamma2*k/alpha 
+    ];
+   
+C = [ 1 0 0 0; 
+      0 1 0 0;
+      0 0 1 0; 
+      0 0 0 1 
+    ];
+    
+D = [ 0 0; 
+      0 0; 
+      0 0; 
+      0 0
+    ];
+
+Initial conditions = 0
+Sample time = -1
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Frequency Domain
+%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+SYS = ss(A,B,C,D)
+SYS_t = tf(SYS)
+iopzplot(SYS_t)
+bode(SYS_t)
