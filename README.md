@@ -50,7 +50,7 @@ can be recovered using observations from outflow sensors.
 
 ### Simulation of Case 3.
 
-With respect to the (1,2)-resilient system, Fig. 4 (based on <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case3-fig4a-fig4b/">this matlab code</a> shows the plant
+With respect to the (1,2)-resilient system, Fig. 4 (based on <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case3-fig4a-fig4b/">this matlab code</a>) shows the plant
 signals associated to the Case 3. The (1,2)-resilient system has eight
 sensors (four ultrasonic sensors and four outflow meters) and two
 actuators (Pumps 1 and 2). If only the ultrasonic level sensors (or
