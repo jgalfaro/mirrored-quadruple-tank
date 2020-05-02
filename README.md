@@ -19,27 +19,38 @@ and the Quadruple Tank Scenario by K. H. Johansson (cf. Ref. <a href="https://do
 
 ### Simulation of Case 1.
 
-The one-tank system has one level sensor and one out ow sensor. The
-state of this system is recoverable if the level sensor or the out ow
-sensor is attacked, but not both. Fig. 2(a,b) shows that we can
-recover the state of the system from the out ow sensor, in case of an
-attack is targeting the level sensor.
+The one-tank system has one level sensor and one outflow sensor. The
+state of this system is recoverable if the level sensor or the outflow
+sensor is attacked, but not both. Fig. 2(a,b), based on <a
+href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case1-fig2a-fig2b">this
+matlab code</a> shows that we can recover the state of the system from
+the outflow sensor, in case of an attack is targeting the level
+sensor.
 
 ![figure2](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig2.png)
-#### Figure 2. Simulation of Case 1. Part (a) plots the level in a one tank system under normal operation (solid blue line). In Part (b), and assuming solely the ultrasonic sensor is attacked, it is possible to track the level using the outflow sensor (solid red line).
+#### Figure 2. Simulation of Case 1. <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case1-fig2a-fig2b/main2a.m">Part (a)</a> plots the level in a one tank system under normal operation (solid blue line). In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case1-fig2a-fig2b/main2b.m">Part (b)</a>, and assuming solely the ultrasonic sensor is attacked, it is possible to track the level using the outflow sensor (solid red line).
 
 ### Simulation of Case 2.
 
 The (1,1)-resilient system has only four levels sensors (one per
 tank). When an adversary perpetrates an attack on these sensors, the
-state of the system is not recoverable. Fig. 3(a) shows the levels in
-each tank, when the system is not attacked. Fig. 2(b) shows the
-levels when an attack is perpetrated. Since there is no non-attacked
-sensor type implementing an injective function on its elements, the
-state is not recoverable.
+state of the system is not recoverable. Figs. 3(a) and 3(b), based on
+<a
+href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case2-fig3a-fig3b/main.m">this
+matlab code</a> show the levels in each tank (Part (a)), when the
+system is not attacked; and the levels when an attack is perpetrated
+(Part (b)). Since there is no non-attacked sensor type implementing an
+injective function on its elements, the state is not recoverable.
+Figs. 3(c) and 3(d), based on <a
+href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case2-fig3c-fig3d/main.m">this
+matlab code</a>, show tanks levels in the (2,2)-resilient system. Part
+(c) shows the tanks levels tracked with ultrasonic sensors. In Part
+(d), an adversary spoofs actuators and manipulates solely ultrasonic
+sensor signals (dashed lines). Part (d) shows that the actual levels
+can be recovered using observations from outflow sensors.
 
 ![figure3](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig3.png)
-#### Figure 3. Simulation of Case 2. In Part (a), tank levels are tracked with ultrasonic sensors in the (1,1)-resilient system. In Part (b) an adversary spoofs actuators and manipulates sensor signals such that they look as expected (dashed lines), although actual levels (solid lines) are different. The degree of resilience does not enable state recovery. In Part (c), tanks levels are tracked with ultrasonic sensors in the (2,2)-resilient system. In Part (d), an adversary spoofs actuators and manipulates solely ultrasonic sensor signals (dashed lines). Actual levels (solid lines) can be recovered using observations from out ow sensors.
+#### Figure 3. Simulation of Case 2. <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case2-fig3a-fig3b/main.m">In Part (a)</a>, tank levels are tracked with ultrasonic sensors in the (1,1)-resilient system. <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case2-fig3a-fig3b/main.m">In Part (b)</a>, an adversary spoofs actuators and manipulates sensor signals such that they look as expected (dashed lines), although actual levels (solid lines) are different. The degree of resilience does not enable state recovery. In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case2-fig3c-fig3d/main.m">Part (c)</a>, tanks levels are tracked with ultrasonic sensors in the (2,2)-resilient system. In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case2-fig3c-fig3d/main.m">Part (d)</a>, an adversary spoofs actuators and manipulates solely ultrasonic sensor signals (dashed lines). Actual levels (solid lines) can be recovered using observations from outflow sensors.
 
 ### Simulation of Case 3.
 
