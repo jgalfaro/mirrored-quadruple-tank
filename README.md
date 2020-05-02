@@ -50,24 +50,24 @@ can be recovered using observations from outflow sensors.
 
 ### Simulation of Case 3.
 
-With respect to the (1,2)-resilient system, Fig. 4 shows the plant
+With respect to the (1,2)-resilient system, Fig. 4 (based on <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case3-fig4a-fig4b/">this matlab code</a> shows the plant
 signals associated to the Case 3. The (1,2)-resilient system has eight
 sensors (four ultrasonic sensors and four outflow meters) and two
 actuators (Pumps 1 and 2). If only the ultrasonic level sensors (or
 only the outflow meters sensors) are attacked, then the state is
-recoverable. Fig. 4(a) shows the signals from the non-attacked level
+recoverable. In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case3-fig4a-fig4b/main.m">Part (a)</a> shows the signals from the non-attacked level
 sensors. When only one family of sensors is attacked (either the
 ultrasonic or the outflow meters ones), then we can appreciate the
 system can recover the state by using the non-attacked outflow
-sensors, as shown in Fig. 4(b). Notice that if we were conducting the
-full covert attack over the (2,2)- resilient system (cf. Fig. 1(c)
+sensors, as shown in <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case3-fig4a-fig4b/main.m">Part (b)</a>. Notice that if we were conducting the
+full covert attack over the (2,2)-resilient system (cf. Fig. 1(c)
 above), the controller will also be able to recover the system state,
 using the additional pumps (Pumps 3 and 4), in a more optimal way, as
 we will show below, in Fig. 7(c).
 
 
 ![figure4](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig4.png)
-#### Figure 4. Simulation results associated with Case 3, with regard to the (1,2)-resilient design. In Part (a) we show the levels of the plant under normal operation (the ultrasonic level sensors are not under attack). In Part (b), attack mode, and assuming solely the ultrasonic sensor are attacked, we track the level using the outflow rate meters.
+#### Figure 4. Simulation results associated with Case 3, with regard to the (1,2)-resilient design. In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case3-fig4a-fig4b/main.m">Part (a)</a> we show the levels of the plant under normal operation (the ultrasonic level sensors are not under attack). In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case3-fig4a-fig4b/main.m">Part (b)</a>, attack mode, and assuming solely the ultrasonic sensor are attacked, we track the level using the outflow rate meters.
 
 ### Simulation of Case 4.
 
