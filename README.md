@@ -17,11 +17,11 @@ and the Quadruple Tank Scenario by K. H. Johansson (cf. Ref. <a href="https://do
 
 The one-tank system has one level sensor and one outflow sensor. The
 state of this system is recoverable if the level sensor or the outflow
-sensor is attacked, but not both. Fig. 2(a,b), based on <a
+sensor is attacked, but not both. Fig. 2, based on <a
 href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case1-fig2a-fig2b">this
 matlab code</a>, shows that we can recover the state of the system from
 the outflow sensor, in case of an attack is targeting the level
-sensor.
+sensor. <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case1-fig2a-fig2b/main2a.m">Part (a)</a> plots the level in a one tank system under normal operation (solid blue line). In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case1-fig2a-fig2b/main2b.m">Part (b)</a>, and assuming solely the ultrasonic sensor is attacked, it is possible to track the level using the outflow sensor (solid red line).
 
 ![figure2](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig2.png)
 #### Figure 2. Simulation of Case 1. <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case1-fig2a-fig2b/main2a.m">Part (a)</a> plots the level in a one tank system under normal operation (solid blue line). In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case1-fig2a-fig2b/main2b.m">Part (b)</a>, and assuming solely the ultrasonic sensor is attacked, it is possible to track the level using the outflow sensor (solid red line).
