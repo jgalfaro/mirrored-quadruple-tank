@@ -105,7 +105,7 @@ T=500 seconds.
 
 ### Interpretation of results.
 
-Fig. 7 provides an interpretation of all our simulations. We consider
+<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/interpretation-fig7a-fig7b-fig7c">Fig. 7</a> provides an interpretation of all our simulations. We consider
 that the performance of a system is the capacity to maintain expected
 level in tanks. Hence, the performance degradation corresponds to the
 deviation from the expected levels. The larger the deviation, the
