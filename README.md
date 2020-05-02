@@ -71,7 +71,7 @@ we will show below, in Fig. 7(c).
 
 ### Simulation of Case 4.
 
-Case 4 is simulated in Fig. 5. Inflows to Tanks 1, 2, 3 and 4 are
+Case 4 simulations are plotted in Fig. 5, based on <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case4-fig5a-fig5b">this matlab code</a>. Inflows to Tanks 1, 2, 3 and 4 are
 shown by pump number. In Part (a), because they are variable flow,
 Pumps 1 and 2 can achieve inflows that are the same or below the
 inflows achievable by fixed-flow Pumps 3 and 4. When inflows are below
@@ -87,7 +87,7 @@ be impossible.
 
 
 ![figure5](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig5.png)
-#### Figure 5. Simulation of Case 4. Plots show inflows to Tanks 1, 2, 3 and 4, attributed to each pump. In Part (a), variable-flow pumps push liquid into tanks at rates below what fixed-flow pumps can do. In Part (b), variable-flow pumps push liquid into tanks  at rates above what fixed-flow pumps can do.
+#### Figure 5. Simulation of Case 4. Plots show inflows to Tanks 1, 2, 3 and 4, attributed to each pump. In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case4-fig5a-fig5b/main.m">Part (a)</a>, variable-flow pumps push liquid into tanks at rates below what fixed-flow pumps can do. In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case4-fig5a-fig5b/main.m">Part (b)</a>, variable-flow pumps push liquid into tanks  at rates above what fixed-flow pumps can do.
 
 ### Simulation of Case 5.
 
