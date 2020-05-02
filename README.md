@@ -11,7 +11,7 @@ and the Quadruple Tank Scenario by K. H. Johansson (cf. Ref. <a href="https://do
 ## Simulated Systems
 
 ![figure1](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig1.png)
-#### Figure 1. Quadruple-tank plant scenario. (a) Original scheme, based on based on Ref. <a href="https://doi.org/10.1109/87.845876">[DOI: 10.1109/87.845876].</a>, representing our (1,1)-resilient scheme. (b) Extended (1,2)-resilient scheme, with four additional sensors. (c) Extended (2,2)-resilient scheme, with two additional pumps and four additional sensors
+#### Figure 1. Quadruple-tank plant scenario. (a) Original scheme, based on based on Ref. <a href="https://doi.org/10.1109/87.845876">[DOI: 10.1109/87.845876]</a>, representing our (1,1)-resilient scheme. (b) Extended (1,2)-resilient scheme, with four additional sensors. (c) Extended (2,2)-resilient scheme, with two additional pumps and four additional sensors
 
 ### Simulation of Case 1.
 
