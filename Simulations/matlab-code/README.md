@@ -32,8 +32,8 @@ attack is targeting the level sensor.
 
 The (1,1)-resilient system has only four levels sensors (one per
 tank). When an adversary perpetrates an attack on these sensors, the
-state of the system is not recoverable. Fig. 3 (a) shows the levels in
-each tank, when the system is not attacked. Fig. 2 (b) shows the
+state of the system is not recoverable. Fig. 3(a) shows the levels in
+each tank, when the system is not attacked. Fig. 2(b) shows the
 levels when an attack is perpetrated. Since there is no non-attacked
 sensor type implementing an injective function on its elements, the
 state is not recoverable.
@@ -110,7 +110,7 @@ Figs. 7(a), (b), and (c) respectively show the performance of the
 (1,1)-, (1,2)- and (2,2)-resilient systems, when attacks are
 perpetrated. When a system is not attacked, performance is 100%.
 Attacks start at T=500 seconds. The adversary manipulates inputs to
-drive more liquid in the Tanks~1 and~4. The consequence of the attack
+drive more liquid in the Tanks 1 and 4. The consequence of the attack
 is a deviation from the expected system state. Quantifying this
 deviation, we obtain a percentage of performance loss. When the
 (1,1)-resilient system (with no recovery capability) is under attack,
