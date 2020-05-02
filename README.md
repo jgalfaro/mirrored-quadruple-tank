@@ -19,7 +19,7 @@ The one-tank system has one level sensor and one outflow sensor. The
 state of this system is recoverable if the level sensor or the outflow
 sensor is attacked, but not both. Fig. 2(a,b), based on <a
 href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case1-fig2a-fig2b">this
-matlab code</a> shows that we can recover the state of the system from
+matlab code</a>, shows that we can recover the state of the system from
 the outflow sensor, in case of an attack is targeting the level
 sensor.
 
