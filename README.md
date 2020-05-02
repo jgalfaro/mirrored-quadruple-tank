@@ -109,13 +109,12 @@ Fig. 7 provides an interpretation of all our simulations. We consider
 that the performance of a system is the capacity to maintain expected
 level in tanks. Hence, the performance degradation corresponds to the
 deviation from the expected levels. The larger the deviation, the
-lower the performance. In Fig. 7, we represent these deviations in
-percentages.
+lower the performance. Deviations are represented in percentages.
 
 ![figure7](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig7.png)
-#### Figure 7. Performance evolution of the (1,1)-, (1,2)- and (2,2)-resilient systems, when they are confronted to a covert attack. Performance degradation corresponds to the deviation from  their expected levels. The larger the deviation, the lower the performance. The (1,1)-resilient system, with no recovery capability, experiences a performance drop. In contrast, the (1,2)- and (2,2)-resilient systems recover from the attack. The (1,2)-resilient system recovers with graceful degradation, due to the absence of actuator redundancy, while the (2,2)-resilient system fully recovers.
+#### Figure 7. Performance evolution of the (1,1)-, (1,2)- and (2,2)-resilient systems, when they are confronted to a covert attack. Performance degradation corresponds to the deviation from  their expected levels. The larger the deviation, the lower the performance. In <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/interpretation-fig7a-fig7b-fig7c/interpretation_11/main7a.m">Part (a)</a>, we can observe that the (1,1)-resilient system,  with no recovery capability, experiences a performance drop. In contrast, <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/interpretation-fig7a-fig7b-fig7c/interpretation_12/main7b.m">Part (b)</a> and <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/interpretation-fig7a-fig7b-fig7c/interpretation_22/main7c.m">(c)</a> show that the (1,2)- and (2,2)-resilient systems, respectively, can recover from the attack. The (1,2)-resilient system recovers with graceful degradation, due to the absence of actuator redundancy, while the (2,2)-resilient system fully recovers.
 
-Figs. 7(a), (b), and (c) respectively show the performance of the
+Figs. <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/interpretation-fig7a-fig7b-fig7c/interpretation_11/main7a.m">7(a)</a>, (b), and (c) respectively show the performance of the
 (1,1)-, (1,2)- and (2,2)-resilient systems, when attacks are
 perpetrated. When a system is not attacked, performance is 100%.
 Attacks start at T=500 seconds. The adversary manipulates inputs to
@@ -125,7 +124,7 @@ deviation, we obtain a percentage of performance loss. When the
 (1,1)-resilient system (with no recovery capability) is under attack,
 it experiences a performance drop. In the (1,2)- and (2,2)-resilient
 systems, it is possible to mitigate the effects of attacks and bounce
-back. As shown in Figs. 7(b) and 7(c), respectively, the
+back. As shown in Figs. <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/interpretation-fig7a-fig7b-fig7c/interpretation_12/main7b.m">7(b)</a> and <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/interpretation-fig7a-fig7b-fig7c/interpretation_22/main7c.m">7(c)</a>, respectively, the
 (1,2)-resilient system recovers with graceful degradation, due to the
 absence of actuator redundancy, while the (2,2)-resilient system fully
 recovers.
