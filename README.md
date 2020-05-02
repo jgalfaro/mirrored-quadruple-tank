@@ -91,14 +91,16 @@ be impossible.
 
 ### Simulation of Case 5.
 
-Fig. 6(a) shows the input voltages u<sub>1</sub>, and u<sub>2</sub>,
-respectively applied to Pump 1 and Pump 2. The dashed line represents
-the attack signal used by an adversary. Fig. 6(b) represents the
-levels in Tank 1 and Tank 4, when the attack starts at T=500
-seconds.
+Fig. 6(a), based on <a
+href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case5-fig6a-fig6b/">this
+matlab code</a>, shows the input voltages u<sub>1</sub>, and
+u<sub>2</sub>, respectively applied to Pump 1 and Pump 2. The dashed
+line represents the attack signal used by an adversary. Fig. 6(b), based on <a
+href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case5-fig6a-fig6b/">this matlab code</a>, represents the levels in Tank 1 and Tank 4, when the attack starts at
+T=500 seconds.
 
 ![figure6](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig6.png)
-#### Figure 6. Simulation results of Case 5. As a function of time, Part (a) shows values of input signals u<sub>i</sub>[1] (solid read), u<sub>i</sub>[2] (solid blue) and spoofed input signal u<sub>i</sub><sup>a</sup>[1] (dashed red). In Part (a), the adversary manipulates the ultrasonic sensor signal such that they look as expected (dashed) lines. Actual levels (solid lines) are recovered using the outflow sensors. Assuming inflows are below what fixed-flow pumps can achieved, it is possible to determine and track the values of the adversary signal u<sub>i</sub><sup>a</sup>[1].
+#### Figure 6. Simulation results of Case 5. As a function of time, <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case5-fig6a-fig6b/main.m">Part (a)</a> shows values of input signals u<sub>i</sub>[1] (solid read), u<sub>i</sub>[2] (solid blue) and spoofed input signal u<sub>i</sub><sup>a</sup>[1] (dashed red). In <a href?"https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Simulations/matlab-code/case5-fig6a-fig6b/main.m">Part (b)</a>, the adversary manipulates the ultrasonic sensor signal such that they look as expected (dashed) lines. Actual levels (solid lines) are recovered using the outflow sensors. Assuming inflows are below what fixed-flow pumps can achieved, it is possible to determine and track the values of the adversary signal u<sub>i</sub><sup>a</sup>[1].
 
 
 ### Interpretation of results.
