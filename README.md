@@ -13,7 +13,7 @@ and the Quadruple Tank Scenario by K. H. Johansson (cf. Ref. <a href="https://do
 ## Simulated Systems
 
 We report matlab code for the quadruple-tank using <a
-href="https://github.com/karrocon/pcsmatlab}">PCSMatlab</a>, which <a
+href="https://github.com/karrocon/pcsmatlab">PCSMatlab</a>, which <a
 href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/PCS">has
 been extended</a> to evaluate new resilience and adversarial models.
 The resulting code is available
