@@ -2,16 +2,93 @@ Supplementary Material for Simulation and Experiment Cyber-Physical
 Resilience Work using the Quadruple Tank Scenario
 ===
 
+### Michel Barbeau, Carleton University, School of Computer Science, Canada.
+
+### Frederic Cuppens, Polytechnique Montréal, Canada.
+
+### Nora Cuppens, Polytechnique Montréal, Canada.
+
+### Romain Dagnas, Polytechnique Montréal, Canada.
+
+### Joaquin Garcia-Alfaro, Institut Polytechnique de Paris, France.
+
+===
+
 We reused existing code from:
 
 <a href="https://github.com/karrocon/pcsmatlab">PCSMATLAB</a>
 
 and the Quadruple Tank Scenario by K. H. Johansson (cf. Ref. <a href="https://doi.org/10.1109/87.845876">[DOI: 10.1109/87.845876]</a>).
 
+===
+
 ## Simulated Systems
 
+We report matlab code for the quadruple-tank using <a
+href="https://github.com/karrocon/pcsmatlab}">PCSMatlab</a>, which <a
+href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/PCS">has
+been extended</a> to evaluate new resilience and adversarial models.
+The resulting code is available
+<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code">in
+this repository</a>. All the simulations use an adapted PI
+(Proportional-Integral) controller based on the differential equations
+of the quadruple-tank scenario By Johansson in Ref.
+<a href="https://doi.org/10.1109/87.845876">[DOI: 10.1109/87.845876]</a>,
+and the extended
+<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/PCS">PCSMatlab
+library</a>.
+
 ![figure1](https://github.com/jgalfaro/mirrored-quadruple-tank/blob/master/Figures/FIG/Fig1.png)
-#### Figure 1. Quadruple-tank plant scenario. (a) Original scheme, based on based on Ref. <a href="https://doi.org/10.1109/87.845876">[DOI: 10.1109/87.845876]</a>, representing our (1,1)-resilient scheme. (b) Extended (1,2)-resilient scheme, with four additional sensors. (c) Extended (2,2)-resilient scheme, with two additional pumps and four additional sensors
+#### Figure 1. Quadruple-tank plant scenario. Part a (a) shows the original scheme, based on based on Ref. <a href="https://doi.org/10.1109/87.845876">[DOI: 10.1109/87.845876]</a>, representing a (1,1)-resilient scheme. Part (b) shows the extended (1,2)-resilient scheme, with four additional sensors. Part (c) shows the extended (2,2)-resilient scheme, with two additional pumps and four additional sensors. Parts (d) to (f) show, respectively, the (1,1)-, (1,2)- and (2,2)-resilient systems, under attack.
+
+Since the valves of the quadruple-tank scenario are not assumed
+vulnerable (e.g., we assume they cannot be attacked from the cyber
+space), we build the attacks assuming that the adversary is only
+taking control over the pumps (i.e., the adversary manages a remote
+access to the system, that allows manipulating the input voltages of
+the pumps acting as actuators of the quadruple-tank plant). Parts (d)
+to (f)n in Fig. 1 depict the idea for the three aforementioned scheme
+(i.e., (1,1)-, (1,2)-, and (2,2)-resilient schemes in Parts (a) to (c)
+of Fig. 1). By attacking the voltage of the pumps, the adversary
+changes the inflow levels of the tanks. The adversary adds an attack
+signal to the input voltage of Pump 1. As a result of the attack, more
+liquid is pumped into Tanks 1 and 4. Some representative attacks for
+the <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case2-fig3a-fig3b/lib">(1,1)-</a>,
+<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case3-fig4a-fig4b/lib">(1,2)-</a>,
+and
+<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case2-fig3c-fig3d/lib">(2,2)-resilient</aA
+schemes is available under
+<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code">this
+repository</a>.
+
+The adversary also attacks the sensors, in order to evade detection
+(i.e., by attacking both sensors and actuators, the adversary
+perpetrates a covert attack). The attack against the sensors consists
+to manipulate the measurement signals of the sensors, before reaching
+the controller (e.g., by means of injection, spoofing and
+man-in-the-middle cyber attacks, using a remote access from the cyber
+space). Hence, wrong measurements are provided to the controller, to
+conceal the detection of the attack against the actuators (i.e., the
+pumps). In fact, the measurement modification hides the real state of
+the system to the eyes of the controller. In our simulations, we can
+separate the processing of truthful signals, from those manipulated by
+the adversary. To ease the analysis, two simulations are conducted for
+each scenario, at the same time. The sensor signals of the second
+simulation are sent to the controller of the first simulation.
+Furthermore, and during the attack against the actuators, the
+adversary intercepts the truthful signals from the controller, and
+adds a modified input signal to the plant. This represents the
+disruption of the plant that is captured from the sensors of the
+system. Finally, the simulations assume that the attacked input
+voltage of the Pump 1 is increased by 50% w.r.t. its initial value,
+as shown in Fig. 6(a), below.
+
+The simulation cases reported below show how we can recover the system
+performance after the perpetration of attacks to the ultrasonic
+sensors of each scheme, together to the actuators associated to Pump 1
+of each scheme. When only one family of sensors is attacked (e.g., the
+ultrasonic sensors), the system can recover the state by using the
+non-attacked sensors.
 
 ### Simulation of Case 1.
 
