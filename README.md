@@ -35,7 +35,7 @@ space), we build the attacks assuming that the adversary is only
 taking control over the pumps (i.e., the adversary manages a remote
 access to the system, that allows manipulating the input voltages of
 the pumps acting as actuators of the quadruple-tank plant). Parts (d)
-to (f) in Fig. 1 depict the idea for the three aforementioned scheme
+to (f) in Fig. 1 depict the idea for the three aforementioned schemes
 (i.e., (1,1)-, (1,2)-, and (2,2)-resilient schemes in Parts (a) to (c)
 of Fig. 1). By attacking the voltage of the pumps, the adversary
 changes the inflow levels of the tanks. The adversary adds an attack
