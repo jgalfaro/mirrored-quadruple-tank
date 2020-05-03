@@ -44,8 +44,8 @@ liquid is pumped into Tanks 1 and 4. Some representative attacks for
 the <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case2-fig3a-fig3b/lib">(1,1)-</a>,
 <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case3-fig4a-fig4b/lib">(1,2)-</a>,
 and
-<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case2-fig3c-fig3d/lib">(2,2)-resilient</aA
-schemes is available under
+<a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code/case2-fig3c-fig3d/lib">(2,2)-resilient</a>
+schemes are available under
 <a href="https://github.com/jgalfaro/mirrored-quadruple-tank/tree/master/Simulations/matlab-code">this
 repository</a>.
 
