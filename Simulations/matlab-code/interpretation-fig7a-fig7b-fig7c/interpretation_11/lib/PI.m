@@ -25,7 +25,7 @@ classdef PI < Controller
 		end
 		
 		function dxcdt = derivatives(self, t, ~, ~, y, ~, r)
-			dxcdt = self.Ti.^(-1).*(r(t,[1 2]) - y(t,[1 2]) - y(t,[3 4]));
+			dxcdt = self.Ti.^(-1).*(r(t,[1 2]) - y(t,[1 2]) - y(t,[4 3]));
 		end
 		
 		function u = outputs(self, t, xc, ~, y, ~, r)
