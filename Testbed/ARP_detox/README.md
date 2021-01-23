@@ -58,3 +58,4 @@ This project was **only a Proof-of-Concept**, as such:
  2. It only works with IPv4, making it work for IPv6 as well shouldn't be too much of an issue, the length of the exchanged messages as well as the serialization/deserialization of the messages must be changed.
  3. It only works on **one** of the master's possible connected networks (and only works for one symetric key instead of one for each connected subnets as such), it shouldn't be too hard to move on to several networks from there.
 
+
