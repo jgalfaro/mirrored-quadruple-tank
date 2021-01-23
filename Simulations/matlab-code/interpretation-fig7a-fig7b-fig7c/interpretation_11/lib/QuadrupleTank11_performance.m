@@ -33,7 +33,7 @@ classdef QuadrupleTank11_performance < Process
                 dxdt(5) = self.a(1)/self.A(5)*sqrt(2*self.g*xt(1)) + self.a(2)/self.A(5)*sqrt(2*self.g*xt(2)) - self.k(1)/self.A(5)*u(t,1) - self.k(2)/self.A(5)*u(t,2);
            
                
-                if t > 508
+                if t > 515
                     self.gamma(1) = 0.95;
                 
                     dxdt(1) = -self.a(1)/self.A(1)*sqrt(2*self.g*xt(1)) + self.a(3)/self.A(1)*sqrt(2*self.g*xt(3)) + self.gamma(1)*self.k(1)/self.A(1)*(u(t,1)+u(t,1)*0.5);
