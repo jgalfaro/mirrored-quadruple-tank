@@ -193,3 +193,5 @@ back. As shown in Figs. <a href="https://github.com/jgalfaro/mirrored-quadruple-
 (1,2)-resilient system recovers with graceful degradation, due to the
 absence of actuator redundancy, while the (2,2)-resilient system fully
 recovers.
+
+
