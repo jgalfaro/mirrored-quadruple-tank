@@ -17,3 +17,4 @@ Also contains small utility scripts used to quickly setup the different interfac
 5. When you want to effectively start the attack and keep the pump from stoping (forcing it forward actually) press ctrl-c in the shell window hosting 2_mitm_modify_packets_IEC_104.py, each and everytime a packet is modified, the whole TCP payload (so the APDU+ASDU) before and after modification will be printed.
 6. When you want to resume normal operations, press ctrl-c again in the shell window hosting 2_mitm_modify_packets_IEC_104.py
 
+
