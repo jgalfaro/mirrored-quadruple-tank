@@ -1,6 +1,33 @@
-Supplementary Material for Simulation and Experiment Cyber-Physical
-Resilience Work using the Quadruple Tank Scenario
+Supplementary Material for Switched-based Control 
+Testbed to Assure Cyber-Physical Resilience by Design
 ===
+
+### Mariana Segovia, Institut Polytechnique de Paris, Telecom SudParis, France.
+
+### Jose Rubio-Hernan, Institut Polytechnique de Paris, Telecom SudParis, France.
+
+### Ana Rosa Cavalli , Institut Polytechnique de Paris, Telecom SudParis, France.
+
+### Joaquin Garcia-Alfaro, Institut Polytechnique de Paris, Telecom SudParis, France.
+
+## Abstract
+
+Cyber-Physical Systems (CPS) integrate control systems engineering, computer science, 
+and networking to control a physical process. The main challenge after detecting malicious 
+actions in a CPS is to choose the correct reaction that the system has to carry out. 
+
+We propose a deployment platform for cyber-physical configurations evaluation to satisfy 
+cyber-physical resilience properties. Experimental testbeds are crucial to analyze new 
+proposals. For this reason, we discuss some actions for the development of a replicable 
+and affordable cyber-physical testbed for training and research. The architecture is based 
+on real-world components. This solution combines diverse parameters that come from cyber 
+and physical layer.
+
+## Keywords
+
+Cyber-Physical Systems, Resilience, Testbed, Cyber-Physical Adversary.
+
+## Disclaimer
 
 We reused existing code from:
 
