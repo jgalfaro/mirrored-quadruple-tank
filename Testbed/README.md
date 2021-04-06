@@ -15,7 +15,6 @@ Testbed to Assure Cyber-Physical Resilience by Design
 Cyber-Physical Systems (CPS) integrate control systems engineering, computer science, 
 and networking to control a physical process. The main challenge after detecting malicious 
 actions in a CPS is to choose the correct reaction that the system has to carry out. 
-
 We propose a deployment platform for cyber-physical configurations evaluation to satisfy 
 cyber-physical resilience properties. Experimental testbeds are crucial to analyze new 
 proposals. For this reason, we discuss some actions for the development of a replicable 
