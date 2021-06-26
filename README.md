@@ -195,3 +195,38 @@ absence of actuator redundancy, while the (2,2)-resilient system fully
 recovers.
 
 
+## References
+
+If using this code for research purposes, please cite:
+
+[1] M. Barbeau, F. Cuppens, N. Cuppens, R. Dagnas, J. Garcia-Alfaro, "Resilience Estimation of Cyber-Physical Systems via Quantitative Metrics," IEEE Access, March 2021. 
+
+[2] M. Barbeau, F. Cuppens, N. Cuppens, R. Dagnas, J. Garcia-Alfaro, "Metrics to Enhance the Resilience of Cyber-Physical Systems," 19th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (IEEE TrustCom 2020), Guangzhou, China, December 2020.  
+
+
+```
+@article{barbeau2021resilience,
+  title={Resilience Estimation of Cyber-Physical Systems via Quantitative Metrics},
+  author={Barbeau, Michel and Cuppens, Fr{\'e}d{\'e}ric and Cuppens, Nora and Dagnas, Romain and Garcia-Alfaro, Joaquin},
+  journal={IEEE Access},
+  volume={9},
+  pages={46462--46475},
+  year={2021},
+  publisher={IEEE},
+  doi = {10.1109/ACCESS.2021.3066108},
+  url = {https://doi.org/10.1109/ACCESS.2021.3066108}, 
+}
+
+
+@inproceedings{barbeau2021metrics,
+  title={Metrics to enhance the resilience of cyber-physical systems},
+  author={Barbeau, Michel and Cuppens, Fr{\'e}d{\'e}ric and Cuppens, Nora and Dagnas, Romain and Garcia-Alfaro, Joaquin},
+  booktitle={2020 IEEE 19th International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)},
+  pages={1167--1172},
+  year={2021},
+  organization={IEEE},
+  doi = {10.1109/TrustCom50675.2020.00156},
+  url = {https://doi.org/10.1109/TrustCom50675.2020.00156},
+}
+```
+
